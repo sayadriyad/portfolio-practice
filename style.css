@@ -1,0 +1,73 @@
+body{
+    font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.name{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.profile{
+    text-decoration: none;
+    background-image: linear-gradient(140deg,lightsalmon,tomato);
+    border-radius: 5px;
+    padding: 10px;
+}
+.top-banner{
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat
+}
+.bottom-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    
+}
+.experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+    
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0%;
+}
+#side-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#Bsc{
+    border-left:5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+}
